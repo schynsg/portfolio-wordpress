@@ -8,7 +8,6 @@
     <meta name="description" content="Hi ! My name is Goran Schyns. I'm a belgian web & graphic designer from Kelmis, Liège. Always curious and looking for new challenges.">
     <meta name="keywords" content="Portfolio, Goran Schyns, Web Designer, Infographiste, Web Master">
     <link rel="icon" href="<?php echo get_theme_file_uri('/src/img/goran-schyns.ico'); ?>">
-    <link rel='stylesheet' id='style-css'  href='<?php echo get_theme_file_uri('/style.css'); ?>' type='text/css' media='all' />
     <?php wp_head(); ?>
 </head>
 <body itemscope itemtype="https://schema.org/Person">

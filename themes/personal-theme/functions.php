@@ -4,6 +4,7 @@ function test_files() {
 }
 function setup_features() {
     add_theme_support('title-tag');
+    register_nav_menu('headerMenuLocation', 'Principal menu');
 }
 
 function post_types() {
@@ -27,7 +28,7 @@ function post_types() {
     ));
 }
 
-// add_action('wp_enqueue_scripts', 'test_files');
+add_action('wp_enqueue_scripts', 'test_files');
 add_action('after_setup_theme', 'setup_features');
 
 add_action('init', 'post_types');
